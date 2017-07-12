@@ -1,6 +1,8 @@
 services:  
   - docker
-  
+
+language: go
+
 deploy: 
   provider: gae
   keyfile: cdashboard-fec865a498f9.json
