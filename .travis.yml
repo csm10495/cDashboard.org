@@ -1,4 +1,4 @@
-deploy:
+deploy: 
   provider: gae
   keyfile: cdashboard-fec865a498f9.json
   project: cdashboard-173302
