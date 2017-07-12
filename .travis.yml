@@ -3,5 +3,4 @@ deploy:
   keyfile: cdashboard-fec865a498f9.json
   project: cdashboard-173302
 before_install:
-- openssl aes-256-cbc -K $encrypted_707b734f6a33_key -iv $encrypted_707b734f6a33_iv
-  -in cdashboard-fec865a498f9.json.enc -out cdashboard-fec865a498f9.json -d
+  -openssl aes-256-cbc -K $encrypted_707b734f6a33_key -iv $encrypted_707b734f6a33_iv -in cdashboard-fec865a498f9.json.enc -out cdashboard-fec865a498f9.json -d
